@@ -27,6 +27,7 @@ public class CarMovement : MonoBehaviour
             else
             {
                 Debug.Log("test");
+                //hi this a new one
             } 
         }
     }
