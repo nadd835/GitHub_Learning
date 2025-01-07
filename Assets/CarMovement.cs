@@ -23,6 +23,10 @@ public class CarMovement : MonoBehaviour
                 isMoving = false;
                 Debug.Log("Car stopped moving after " + elapsedTime + " seconds.");
             }
+            else
+            {
+                Debug.Log("test");
+            } 
         }
     }
 }
