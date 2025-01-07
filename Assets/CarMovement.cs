@@ -13,6 +13,7 @@ public class CarMovement : MonoBehaviour
     {
         if (isMoving)
         {
+             //if moving is true or duration has not finished
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
             Debug.Log("Car is moving. Elapsed time: " + elapsedTime);
             elapsedTime += Time.deltaTime;
