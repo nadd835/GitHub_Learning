@@ -18,7 +18,6 @@ public class CarMovement : MonoBehaviour
             Debug.Log("Car is moving. Elapsed time: " + elapsedTime);
             elapsedTime += Time.deltaTime;
 
-            // Stop moving after the duration has passed
             if (elapsedTime >= moveDuration)
             {
                 isMoving = false;
