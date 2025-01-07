@@ -11,7 +11,6 @@ public class CarMovement : MonoBehaviour
 
     void Update()
     {
-        //if moving is true or duration has not finished
         if (isMoving)
         {
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
